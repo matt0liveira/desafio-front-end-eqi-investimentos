@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Technologies used
+
+This challenge was made with React JS and CSS3.
+
 ## Available Scripts
 
 In the project directory, you can run:
