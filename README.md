@@ -8,6 +8,8 @@ This challenge was made with React JS and CSS3.
 
 ## Available Scripts
 
+First you must clone/download the project on your local machine.
+
 In the project directory, you can run:
 
 ### `npm start`
