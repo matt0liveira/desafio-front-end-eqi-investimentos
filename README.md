@@ -10,12 +10,11 @@ This challenge was made with React JS and CSS3.
 
 First you must clone/download the project on your local machine.
 
-In the project directory, you can run:
+before running 'npm start' in the project directory, first run the fake api on the port (http://localhost:3000).
+
+After running fake api in your console, run in the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
