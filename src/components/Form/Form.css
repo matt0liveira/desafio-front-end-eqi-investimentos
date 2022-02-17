@@ -1,0 +1,107 @@
+.form {
+    width: 40%;
+    height: 100%;
+    padding-left: 30px;
+    display: grid;
+    grid-template-rows: 10% 18% 18% 18% 18%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'form__title form__title';
+    justify-content: space-between;
+}
+
+.form__title {
+    grid-area: form__title;
+    margin: 0;
+}
+
+.form__field {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__buttons-rendimento, .form__buttons-indexacao {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-rendimento, .btn-indexacao {
+    border: 0;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+}
+
+.btn-rendimento {
+    width: 50%;
+}
+
+.btn-rendimento--bruto, .btn-indexacao--pre {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-rendimento--liquido, .btn-indexacao--fixado {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn-indexacao {
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.btn-active {
+    background-color: rgb(252, 140, 76);
+    color: #fff;
+}
+
+.form__input {
+    /* margin: 15px 0; */
+    padding: 10px 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #222;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.form__action {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-action {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-action--reset {
+    background-color: transparent;
+    border: 1px solid #222;
+}
+
+.button-action--submit {
+    background-color: rgb(252, 140, 76);
+    border: 0;
+}

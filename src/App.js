@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './AppStyle.css'
+import Form from './components/Form/Form'
+import Result from './components/Result/Result'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default () => {
+    return (
+        <div className="box">
+            <header className="header">
+                <h1>Simulador de investimentos</h1>
+            </header>
+
+            <div className="container">
+                <Form />
+
+                <Result />
+            </div>
+        </div>
+    )
 }
-
-export default App;
